@@ -58,3 +58,4 @@ python3 live_dimension_scanner.py
 ```
 
 * **원격 관제망 접속:** 시스템 구동 후, 동일 네트워크에 접속된 PC의 웹 브라우저를 통해 `http://[라즈베리파이IP]:5000` 에 접속하면 실시간 심도 맵 및 면적 추정 결과를 모니터링할 수 있습니다.
+* **라즈베리파이3의 최적화는 반드시 다음 링크를 확인하고 작업을 해주시길 바랍니다.** https://github.com/akffkdzkdngmrdn87/-3-Rev1.3/blob/main/%ED%95%84%EB%8F%85.md
