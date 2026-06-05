@@ -12,7 +12,7 @@
 * **개발 방법론:** 본 시스템의 알고리즘 설계 및 문제 해결 과정은 대형 언어 모델(LLM)을 활용한 AI-Assisted 프로그래밍 방식을 적용하여 진행되었으며, 하드웨어 최적화부터 웹 스트리밍 기반 관제 시스템까지 통합 파이프라인을 구축하였습니다.
 
 <p align="center">
-  <img src="c41c4e0d-9c54-451f-b300-f23c9c419b1c.jpeg" width="700" alt="Hardware Setup">
+  <img src="doc/2_1.jpeg" width="700" alt="Hardware Setup">
   <br><em>그림 1. 시스템 하드웨어 구성 및 캘리브레이션 환경</em>
 </p>
 
@@ -33,7 +33,7 @@
 3D 투영 매트릭스 변환 시 발생하는 Z축 역전 오류를 방지하기 위해, 기하학적 비례 수식($Z = f \cdot B / d$)을 직접 구현하고 실측 기반의 상수를 적용하여 측정 정밀도를 개선하였습니다.
 
 <p align="center">
-  <img src="비교.jpeg" width="700" alt="Stereo Calibration">
+  <img src="doc/비교.jpeg" width="700" alt="Stereo Calibration">
   <br><em>그림 2. 좌/우 카메라 에피폴라 기하학 정렬(Rectification) 뷰</em>
 </p>
 
@@ -44,8 +44,8 @@
 산출된 거리 데이터를 바탕으로 카메라의 시야각(FOV) 비례식을 융합하여, 대상 객체의 물리적 가로 및 세로 길이(cm)를 실시간으로 추정합니다.
 
 <p align="center">
-  <img src="거리와물건측정1.jpg" width="45%" alt="Dimension Scan 1">
-  <img src="거리와물건측정2.jpg" width="45%" alt="Dimension Scan 2">
+  <img src="doc/거리와물건측정1.png" width="45%" alt="Dimension Scan 1">
+  <img src="doc/거리와물건측정2.png" width="45%" alt="Dimension Scan 2">
   <br><em>그림 3. 상이한 거리(29.3cm 및 30.0cm)에서의 객체 물리 면적 실시간 추정 결과</em>
 </p>
 
